@@ -9,11 +9,9 @@
 - 과정: [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning)
 
 ### 2. Kaggle 대회 참가
-> [Kaggle Featured Competition](https://www.kaggle.com/competitions?listOption=active&hostSegmentIdFilter=1) <br>
-> [Kaggle Playground Competition](https://www.kaggle.com/competitions?listOption=active&hostSegmentIdFilter=8)
 - 캐글의 컴피티션에 참가하여 일정 순위권에 들어야 합니다.
-- 팀 혹은 개인으로 Featured Competition에 참여하여 상위 40% 내 랭킹
-- 팀으로 Playground Competition에 참여하여 상위 20% 내 랭킹
+- 팀 혹은 개인으로 [Featured Competition](https://www.kaggle.com/competitions?listOption=active&hostSegmentIdFilter=1) 에 참여하여 상위 40% 내 랭킹
+- 팀으로 [Playground Competition](https://www.kaggle.com/competitions?listOption=active&hostSegmentIdFilter=8) 에 참여하여 상위 20% 내 랭킹
 - 두 가지 중 선택 완주, 팀원은 3인까지
 
 ### 3. Gemma Sprint 프로젝트
