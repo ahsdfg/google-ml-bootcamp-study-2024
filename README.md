@@ -2,8 +2,6 @@
 
 ## 프로그램 수료 조건
 
-> [구글 머신러닝 부트캠프 2024_ 킥오프](https://docs.google.com/presentation/d/1NdBpMStAdOTvQhlSRM67xF5Gd3c7PoKTA7SgFLkGY_0/edit#slide=id.g2e8dd930c91_0_994)
-
 ### 1. 딥러닝 이론 과정
 - 구글 브레인 팀의 창립멤버 중 한사람이며 Coursera의 창업가이기도 한 Andrew Ng교수의 딥러닝 전문 과정을 일정 기한 내에 수료 완료
 - 과정: [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning)
