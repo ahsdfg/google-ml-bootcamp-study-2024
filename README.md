@@ -9,7 +9,7 @@
 - 과정: [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning)
 
 ### 2. Kaggle 대회 참가
-> [Kaggle Featured Competition](https://www.kaggle.com/competitions?listOption=active&hostSegmentIdFilter=1)
+> [Kaggle Featured Competition](https://www.kaggle.com/competitions?listOption=active&hostSegmentIdFilter=1) <br>
 > [Kaggle Playground Competition](https://www.kaggle.com/competitions?listOption=active&hostSegmentIdFilter=8)
 - 캐글의 컴피티션에 참가하여 일정 순위권에 들어야 합니다.
 - 팀 혹은 개인으로 Featured Competition에 참여하여 상위 40% 내 랭킹
