@@ -77,7 +77,7 @@ class RuleBasedQuestions:
         elif self.log[0] == True:   # Place
             return PlaceQuestions[self.count-3]
         else:                       # Thing
-            return ThingQuestions[self.count-3]
+            return ThingsQuestions[self.count-3]
         
     def putAnswer(self, answer_yes=True):
         """
