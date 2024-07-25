@@ -117,3 +117,7 @@ class RuleBasedQuestions:
     @property
     def context(self):
         return self.context
+    
+    @property
+    def count(self):
+        return self.count
