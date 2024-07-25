@@ -114,10 +114,8 @@ class RuleBasedQuestions:
         self.count = 0
         self.done = False
     
-    @property
     def context(self):
         return self.context
     
-    @property
     def count(self):
         return self.count
