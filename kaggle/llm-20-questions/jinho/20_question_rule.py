@@ -113,6 +113,7 @@ class RuleBasedQuestions:
         self.log = []
         self.count = 0
         self.done = False
-        
-    def getContext(self):
+    
+    @property
+    def context(self):
         return self.context
