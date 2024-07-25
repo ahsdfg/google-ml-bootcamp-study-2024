@@ -2,48 +2,48 @@
 
 
 BasicQuestions = [
-    "Is it a place?",
-    "Does the length of the keyword exceed 10 characters?",
-    "Is the first letter of the keyword one of the following letters: 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', or 'm'? Please consider both upper and lower case as the same when checking the first letter.",
+    "is it a place?",
+    "does the length of the keyword exceed 10 characters?",
+    "is the first letter of the keyword one of the following letters: 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', or 'm'? Please consider both upper and lower case as the same when checking the first letter.",
 ]
 
 BasicAnswers = [
-    ["Keyword is a place. ", "Keyword is a thing. "],
-    ["Keyword length > 10. ", "Keyword length <= 10. "],
+    ["keyword is a place. ", "keyword is a thing. "],
+    ["keyword length > 10. ", "keyword length <= 10. "],
     [
-        "The first letter of the keyword is one of the following letters: 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', or 'm'. ",
-        "The first letter of the keyword is one of the following letters: 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', or 'z'. ",
+        "the first letter of the keyword is one of the following letters: 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', or 'm'. ",
+        "the first letter of the keyword is one of the following letters: 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', or 'z'. ",
     ],
 ]
 
 PlaceQuestions = [
-    "Is it a country?",
-    "Is it a city?",
-    "Is it a mountain?",
-    "Is it a river?",
+    "is it a country?",
+    "is it a city?",
+    "is it a mountain?",
+    "is it a river?",
 ]
 
 PlaceAnswers = [
-    "Keyword is a country. ",
-    "Keyword is a city. ",
-    "Keyword is a mountain. ",
-    "Keyword is a river. ",
-    "Keyword is not a country, city, mountain, or river. ",
+    "keyword is a country. ",
+    "keyword is a city. ",
+    "keyword is a mountain. ",
+    "keyword is a river. ",
+    "keyword is not a country, city, mountain, or river. ",
 ]
 
 ThingsQuestions = [
-    "Is it a living thing?",
-    "Is it edible?",
-    "Is it a tool?",
-    "Is it something that can be help in your hand?",
+    "is it a living thing?",
+    "is it edible?",
+    "is it a tool?",
+    "is it something that can be help in your hand?",
     # "Does it require electricity to operate?",
 ]
 
 ThingsAnswers = [
-    ["Keyword is a living thing. ", "Keyword is not a living thing. "],
-    ["Keyword is edible. ", "Keyword is not edible. "],
-    ["Keyword is a tool. ", "Keyword is not a tool. "],
-    ["Keyword is something that can be held in your hand. ", "Keyword is something that cannot be held in your hand. "],
+    ["keyword is a living thing. ", "keyword is not a living thing. "],
+    ["keyword is edible. ", "keyword is not edible. "],
+    ["keyword is a tool. ", "keyword is not a tool. "],
+    ["keyword is something that can be held in your hand. ", "keyword is something that cannot be held in your hand. "],
     # ["Keyword requires electricity to operate. ", "Keyword does not require electricity to operate. "],
 ]
 
@@ -60,7 +60,7 @@ class RuleBasedQuestions:
         """
         Initialize the context, log, count, and done.
         """
-        self.context = "Hint: "
+        self.context = "hint: "
         self.log = []
         self.count = 0
         self.done = False
