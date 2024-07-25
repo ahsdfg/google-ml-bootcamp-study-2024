@@ -72,12 +72,12 @@ class RuleBasedQuestions:
         """
         if self.done:
             return "No more available questions."
-        if self.count < 3:          # Basic
+        if self.count < len(BasicQuestions):          # Basic
             return BasicQuestions[self.count]
         elif self.log[0] == True:   # Place
-            return PlaceQuestions[self.count-3]
+            return PlaceQuestions[self.count-len(BasicQuestions)]
         else:                       # Thing
-            return ThingsQuestions[self.count-3]
+            return ThingsQuestions[self.count-len(BasicQuestions)]
         
     def putAnswer(self, answer_yes=True):
         """
@@ -85,14 +85,14 @@ class RuleBasedQuestions:
         If the answer is yes, append the context with the yes answer.
         If the answer is no, append the context with the no answer.
         
-        If the count is less than 3, it is a basic question.
+        If the count is less than len(BasicQuestions), it is a basic question.
         There will be just one answer for ThingsQuestions."""
-        if self.count < 3:          # Basic
+        if self.count < len(BasicQuestions):          # Basic
             self.context += BasicAnswers[self.count][0 if answer_yes else 1]
             
         elif self.log[0] == True:   # Place
             if answer_yes:
-                self.context += PlaceAnswers[self.count-3]
+                self.context += PlaceAnswers[self.count-len(BasicQuestions)]
                 self.done = True
             
             if self.count == len(BasicQuestions) + len(PlaceQuestions) - 1: 
@@ -100,7 +100,7 @@ class RuleBasedQuestions:
                 self.done = True
                 
         else:                       # Thing
-            self.context += ThingsAnswers[self.count-3][0 if answer_yes else 1]
+            self.context += ThingsAnswers[self.count-len(BasicQuestions)][0 if answer_yes else 1]
             
             if self.count == len(BasicQuestions) + len(ThingsQuestions) - 1:
                 self.done = True
@@ -113,9 +113,3 @@ class RuleBasedQuestions:
         self.log = []
         self.count = 0
         self.done = False
-    
-    def context(self):
-        return self.context
-    
-    def count(self):
-        return self.count
