@@ -96,7 +96,7 @@ class RuleBasedQuestions:
                 self.done = True
             
             if self.count == len(BasicQuestions) + len(PlaceQuestions) - 1: 
-                self.context += PlaceAnswers[4] # Keyword is not a country, city, mountain, or river.
+                self.context += PlaceAnswers[-1] # Keyword is not a country, city, mountain, or river.
                 self.done = True
                 
         else:                       # Thing
